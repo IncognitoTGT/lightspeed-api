@@ -725,7 +725,7 @@ schema {
 ```
 ### 6/5/23 - Day 2
 
-So I can't examine the extension since it takes forever, and since im typing in a codespace :skull:. But,  I can examine the source code yay. Apperently, the p7* url for the user policy has backups, hence why it still worked even though I blocked it. Looking through the minified source code (AAAAAAAAAAAAAAAAAAAAAAAH), I see even more urls. It will be below. I'll probably need some trial and error to find the urls to spoof. There are some weird urls for things such as I-ready, wonder what they're for :thinking-face:
+So I can't examine the extension since it takes forever, and since im typing in a codespace :skull:. But,  I can examine the source code yay. Apperently, the p7* url for the user policy has backups, hence why it still worked even though I blocked it. Looking through the minified source code (AAAAAAAAAAAAAAAAAAAAAAAH), I see even more urls. It will be below. I'll probably need some trial and error to find the urls to spoof. There are some weird urls for things such as I-ready, wonder what they're for :thinking:
 
 #### The urls
 
