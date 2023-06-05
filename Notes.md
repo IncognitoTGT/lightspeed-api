@@ -48,7 +48,7 @@ There are also other requests that are interesting. I'll look into the others to
 
 ## Giant Text files:
 
-### The payload for the schema request:
+#### The payload for the schema request:
 
 ```
 type AuditLog {
@@ -596,7 +596,7 @@ schema {
 }
 ```
 
-### The user policy payload
+#### The user policy payload
 ```
 {
     "content_filter": {
@@ -723,3 +723,48 @@ schema {
     "block_screen_name": null
 }
 ```
+### 6/5/23 - Day 2
+
+So I can't examine the extension since it takes forever, and since im typing in a codespace :skull:. But,  I can examine the source code yay. Apperently, the p7* url for the user policy has backups, hence why it still worked even though I blocked it. Looking through the minified source code (AAAAAAAAAAAAAAAAAAAAAAAH), I see even more urls. It will be below. I'll probably need some trial and error to find the urls to spoof. There are some weird urls for things such as I-ready, wonder what they're for :thinking-face:
+
+#### The urls
+
+* lsrelay-config-production.s3.amazonaws.com,
+* lsrelay-extensions-production.s3.amazonaws.com,
+* p7nvu5it0k.execute-api.us-west-2.amazonaws.com,
+* production-gc.lsfilter.com,
+* lsrelayaccess.com,
+* lsurl.me,
+* lsmdm-production.s3.amazonaws.com,
+* devices.lsclassroom.com,
+* lsorchestration-production.amazonaws.com,
+* lsaccess.me,
+* www.googleapis.com,
+* ajax.googleapis.com,
+* googleapis.com,
+* fonts.googleapis.com,
+* login.i-ready.com,
+* gm4nyg31l2.execute-api.us-west-2.amazonaws.com,
+* 5rw61tcrl5.execute-api.us-west-2.amazonaws.com,
+* wsmfcvajyf.execute-api.us-west-1.amazonaws.com,
+* development.lsclassroom.com,
+* staging-preview.lsclassroom.com,
+* preview.lsclassroom.com,
+* hosted186.renlearn.com,
+* z40.renlearn.com,
+* z40.renlearnrp.com,
+* z46.renlearn.com,
+* z46.renlearnrp.com,
+* hosted298.renlearn.com,
+* realtime.ably.io,
+* z05.renlearn.com,
+* z05.renlearnrp.com,
+* hosted88.renlearn.com,
+* gce-beacons.gcp.gvt2.com,
+* gce-beacons.gcp.gvt3.com,
+* rest.ably.io,
+* lightspeed-realtime.ably.io,
+* a-fallback-lightspeed.ably.io,
+* b-fallback-lightspeed.ably.io,
+* c-fallback-lightspeed.ably.io
+
