@@ -1,3 +1,3 @@
-# slothspeed-spoof
+# lightspeed-api
 
-This is a WIP for an unblocker for Lightspeed. See the [notes](./Notes.md).
+documented api for lightspeed
